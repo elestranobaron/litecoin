@@ -1,4 +1,4 @@
-FROM debian:11.1
+FROM ubuntu:20.04
 COPY ./muscleupcoin.conf /root/.muscleupcoin/muscleupcoin.conf
 COPY . /muscleupcoin
 WORKDIR /muscleupcoin
