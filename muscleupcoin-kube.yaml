@@ -17,6 +17,6 @@ spec:
         - name: faithcoin
           image: toolboc/faithcoin
           ports:
-            - containerPort: 9666
+            - containerPort: 9999
               name: faithcoin
               protocol: TCP
