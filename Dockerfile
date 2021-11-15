@@ -5,8 +5,8 @@ WORKDIR /muscleupcoin
 
 #shared libraries and dependencies
 RUN apt update
-RUN apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils python3
-RUN apt-get install libssl-dev libevent-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
+RUN apt-get install -y build-essential libtool autotools-dev automake pkg-config bsdmainutils python3
+RUN apt-get install -y libssl-dev libevent-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev
 
 #build muscleupcoin source
 RUN ./autogen.sh
