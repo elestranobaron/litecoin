@@ -14,7 +14,7 @@ RUN apt-get install -y software-properties-common
 #wallet
 RUN add-apt-repository ppa:bitcoin/bitcoin
 RUN apt-get update
-RUN apt-get install libdb4.8-dev libdb4.8++-dev
+RUN apt-get install -y libdb4.8-dev libdb4.8++-dev
 
 #build muscleupcoin source
 RUN ./autogen.sh
