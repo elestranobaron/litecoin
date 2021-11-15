@@ -6,6 +6,7 @@ Muscleupcoin Core integration/staging tree
 https://muscleupcoin.org
 
 special thanks to pjdecarlo right here :
+
 https://www.hackster.io/pjdecarlo/how-to-make-a-cryptocurrency-using-litecoin-v0-15-source-fb5e82
 and here : https://www.hackster.io/pjdecarlo
 
