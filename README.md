@@ -3,7 +3,7 @@ Muscleupcoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/muscleupcoin-project/muscleupcoin.svg?branch=master)](https://travis-ci.org/muscleupcoin-project/muscleupcoin)
 
-https://muscleupcoin.org
+https://determinets.com/muscleupcoin
 
 special thanks to pjdecarlo right here :
 
