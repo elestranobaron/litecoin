@@ -23,4 +23,4 @@ RUN make
 RUN make install
 #open service port
 EXPOSE 9999 19999
-CMD ["muscleupcoind", "--printtoconsole"]
+CMD ["muscleupcoind", "--printtoconsole"] #to daemonize is --daemon or if you want it's just --printtoconsole
